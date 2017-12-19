@@ -1,6 +1,6 @@
 ## Introduction
 
-In this programming assignment, I wrote three functions that are meant to interact with dataset that accompanies this assignment. The dataset is contained in a zip file **ecdata.zip** that can be downloaded from the Coursera web site.
+In this programming assignment, I wrote three functions that are meant to interact with dataset that accompanies this assignment. The dataset is contained in a zip file **specdata.zip** that can be downloaded from the Coursera web site.
 
 ## Data
 
