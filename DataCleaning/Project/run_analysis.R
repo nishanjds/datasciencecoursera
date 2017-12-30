@@ -174,3 +174,10 @@ merged_data$activityLabel<- as.factor(merged_data$activityLabel)
 tidy_data <- merged_data %>%
              group_by(subjectId,activityLabel) %>%
              summarise_all(mean, na.rm=TRUE)
+
+################################################################################
+# POST-STEP 06: Write the tidy data to a file
+################################################################################
+
+# Save the the tidy data as a text file
+write.table(tidy_data, file='tidy_data.txt', row.names = FALSE)
